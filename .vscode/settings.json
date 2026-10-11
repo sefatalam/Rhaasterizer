@@ -1,0 +1,19 @@
+{
+  "cmake.configureOnOpen": true,
+  "cmake.useCMakePresets": "always",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/build/debug",
+    "--background-index",
+    "--header-insertion=never",
+    "--query-driver=C:/msys64/ucrt64/bin/g++.exe"
+  ],
+  "files.associations": {
+    "*.vert": "glsl",
+    "*.frag": "glsl",
+    "*.comp": "glsl",
+    "*.geom": "glsl",
+    "*.tesc": "glsl",
+    "*.tese": "glsl"
+  }
+}
